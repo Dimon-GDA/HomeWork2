@@ -18,6 +18,7 @@
 		84C773C416C83ADA00494B9E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C773C316C83ADA00494B9E /* Default-568h@2x.png */; };
 		84C773C716C83ADA00494B9E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C773C616C83ADA00494B9E /* ViewController.m */; };
 		84C773CA16C83ADA00494B9E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84C773C816C83ADA00494B9E /* ViewController.xib */; };
+		84C773D316C83E7300494B9E /* MyClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C773D216C83E7300494B9E /* MyClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,9 @@
 		84C773C516C83ADA00494B9E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		84C773C616C83ADA00494B9E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84C773C916C83ADA00494B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		84C773D016C83B3C00494B9E /* MyCustomProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCustomProtocol.h; sourceTree = "<group>"; };
+		84C773D116C83E7300494B9E /* MyClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyClass.h; sourceTree = "<group>"; };
+		84C773D216C83E7300494B9E /* MyClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,9 @@
 		84C773B316C83ADA00494B9E /* HomeWork2 */ = {
 			isa = PBXGroup;
 			children = (
+				84C773D016C83B3C00494B9E /* MyCustomProtocol.h */,
+				84C773D116C83E7300494B9E /* MyClass.h */,
+				84C773D216C83E7300494B9E /* MyClass.m */,
 				84C773BC16C83ADA00494B9E /* AppDelegate.h */,
 				84C773BD16C83ADA00494B9E /* AppDelegate.m */,
 				84C773C516C83ADA00494B9E /* ViewController.h */,
@@ -176,6 +183,7 @@
 				84C773BA16C83ADA00494B9E /* main.m in Sources */,
 				84C773BE16C83ADA00494B9E /* AppDelegate.m in Sources */,
 				84C773C716C83ADA00494B9E /* ViewController.m in Sources */,
+				84C773D316C83E7300494B9E /* MyClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
